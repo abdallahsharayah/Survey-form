@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problems Survey Form</title>
+</head>
+<body>
+    <h1>Common technical difficulties survey</h1>
+    <p>Thank you for participating in this survey</p>
+
+    <form action="#">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="age">Age (optional)</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="device">Select the device you are currently facing problems with</label>
+            <select name="device" id="device">
+                <option value="mobile">Mobile</option>
+                <option value="pc">Pc</option>
+                <option value="tablet">Tablet</option>
+            </select>
+        </div>
+        <h2>What kind of problem are you facing</h2>
+        <div>
+            <label for="problem1">connection problem</label>
+            <input type="checkbox" name="problem1" id="problem1" value="connection">
+        </div>
+        <div>
+            <label for="problem2">Hardware problem</label>
+            <input type="checkbox" name="problem2" id="problem2" value="hardware">
+        </div>
+        <div>
+            <label for="problem3">Software problem</label>
+            <input type="checkbox" name="problem3" id="problem3" value="software">
+        </div>
+    </form>
+</body>
+</html>
